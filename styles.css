@@ -1,0 +1,177 @@
+body {
+	font-family: Helvetica;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 10px;
+	height: 50px;
+}
+
+.arrowleft {
+	background-color: transparent;
+	border: 0;
+}
+
+.head-img {
+	width: 30px;
+}
+
+h1 {
+	font-size: 20px;
+	text-transform: capitalize;
+}
+
+.type {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #FCFCFC;
+	height: 50px;
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	border-color: #D8D8D8;
+}
+
+.typetext {
+	font-size: 17px;
+	text-transform: capitalize;
+	background-color: transparent;
+	color: #D8D8D8;
+	border: 0;
+	display: block;
+	width: 50%;
+	height: 100%;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.pop {
+	color: black;
+	border-bottom: 2px solid #2962FF;
+}
+
+.grandeimg {
+	width: 50px;
+}
+
+.singer {
+	height: 70px;
+	width: 70px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.song {
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.songsing {
+	display: flex;
+	flex-grow: 2;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 15px 0;
+}
+
+.name {
+	color: #D8D8D8;
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.author {
+	font-size: 14px;
+	text-transform: capitalize;
+}
+
+.time {
+	width: 50px;
+	font-size: 14px;
+	color: #D8D8D8;
+	padding: 15px 0;
+	display: flex;
+	align-items: flex-end;
+}
+
+body {
+	position: relative;
+}
+
+.playlist {
+	padding-top: 102px;
+	padding-bottom: 70px;
+}
+
+.player {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	background-color: white;
+	/*box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.15);*/
+}
+
+.player > .song {
+	border: 0;
+	height: 100%;
+}
+
+.progress {
+	position: absolute;
+	height: 3px;
+	top: 0;
+	width: 100%;
+	background-color: #F5F5F5;
+}
+
+.progress:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	height: 3px;
+	width: 32%;
+	background-color: #2962FF;
+}
+
+.buttons {
+	width: 45%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+
+.play {
+	width: 50px;
+	height: 50px;
+	background-color: #2962FF;
+	border-radius: 50%;
+	padding: 0;
+	font-size: 12px !important;
+}
+
+.play > i {
+	color: white;
+	line-height: 50px;
+}
+
+.action {
+	font-size: 24px;
+	color: #D8D8D8;
+}
+
+header {
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
